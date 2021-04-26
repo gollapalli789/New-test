@@ -37,12 +37,12 @@
 		<snapshotRepository>
 			<id>localhost-nexus-snapshots</id>
 			<name>Local Nexus snapshot repository</name>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://18.223.126.187:8081/repository/maven-releases/</url>
 		</snapshotRepository>
 		<repository>
 			<id>localhost-nexus-staging</id>
 			<name>Local Nexus release repository</name>
-			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+			<url>http://18.223.126.187:8081/repository/maven-releases/</url>
 		</repository>
 <!-- 		<snapshotRepository> -->
 <!-- 			<id>sonatype-nexus-snapshots</id> -->
